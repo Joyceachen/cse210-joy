@@ -2,10 +2,10 @@
 {
     "version": "0.2.0",
     "configurations": [
+        
 
         {
             "name": "Sandbox Project",
-            "type": "coreclr",
             "request": "launch",
             "preLaunchTask": "build-sandbox-Sandbox",
             "program": "${workspaceFolder}/sandbox/Sandbox/bin/Debug/net8.0/Sandbox.dll",
@@ -13,12 +13,11 @@
             "cwd": "${workspaceFolder}/sandbox/Sandbox",
             "console": "integratedTerminal",
             "internalConsoleOptions": "neverOpen",
-            "stopAtEntry": false
+            
         },
 
         {
             "name": "Week 01: C# Exercise 1",
-            "type": "coreclr",
             "request": "launch",
             "preLaunchTask": "build-week01-Exercise1",
             "program": "${workspaceFolder}/week01/Exercise1/bin/Debug/net8.0/Exercise1.dll",
@@ -26,8 +25,7 @@
             "cwd": "${workspaceFolder}/week01/Exercise1",
             "console": "integratedTerminal",
             "internalConsoleOptions": "neverOpen",
-            "stopAtEntry": false
-        },
+            
 
         {
             "name": "Week 01: C# Exercise 2",
